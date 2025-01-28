@@ -14,7 +14,7 @@ print(len(list1))
 
 # list.
 
-# methods
+# methodszzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 # This is append method => in append method we add one object in list.
 l1=[10,'aman',12,24,55]
