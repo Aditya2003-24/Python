@@ -35,12 +35,16 @@
 
 x=10                   #global variable
 def add():
-    x=20                #local variable
+    global z,y
+    z=40
+    x=420
+    y=40               #local variable
     print('value of global variable x:',globals()['x'])
     print(x)
 
 add()
 print(x)
+print(z)
 
 #global is keyword
 #globals is a methoed

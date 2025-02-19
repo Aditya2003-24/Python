@@ -1,10 +1,10 @@
 n=eval(input('enter any value: '))
 x=str(n)
 
-if(n==x[::-1]):
-    print(f'{n} is palendrom')
+if(x==x[::-1]):
+    print(f'{n} is palindrome')
 else:
-    print(f'{n} is not palendrom')
+    print(f'{n} is not palindrome')
 
 
 # n=eval(input('enter any value: '))
@@ -14,6 +14,7 @@ else:
 #     x=x+n[i]
 # if n==x:
 
-#     print(f'{n} is palendrom')
+#     print(f'{n} is palindrome')
 # else:
-#     print(f'{n} is not palendrom')
+
+#     print(f'{n} is not palindrome')
