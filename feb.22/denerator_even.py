@@ -26,6 +26,21 @@ x=new()
 print(next(x))
 
 
+# def even(n):
+#     i=0
+#     while i<=n:
+#         if i%2==0:
+#             yield i
+#         i+=1
+# x=even(10)
+# print(x)
+# print(list(x))
+
+# a=next(x)
+# b=next(x)
+# c=next(x)
+# print(a,b,c)
+
 def even(n):
     i=0
     while i<=n:
@@ -33,10 +48,5 @@ def even(n):
             yield i
         i+=1
 x=even(10)
-# print(x)
-# print(list(x))
-
-a=next(x)
-b=next(x)
-c=next(x)
-print(a,b,c)
+print(next(x))
+print(next(x))

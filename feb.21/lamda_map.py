@@ -26,10 +26,12 @@
 # res=functools.reduce(lambda x,y:x+y,l1)
 
 # print(res)
-l1=5
-for i in range(1,5):
-    print(i.append([1,2,3,4]))
-# res=[j for j range(5) for i in range(5)]
-for _ in range(1,5):
-    print('hi')
+x=5
+y=6
+# for i in range(1,5):
+#     print(i.append([1,2,3,4]))
+res=list(lambda x,y : [[j for j in range(1,x)] for i in range(1,y)])
+print(res)
+# for _ in range(1,5):
+#     print('hi')
 # print(res)
