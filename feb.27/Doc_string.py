@@ -44,3 +44,4 @@ class Student:
 
 
 obj=Student()
+obj.__init__()
