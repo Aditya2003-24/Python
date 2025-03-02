@@ -31,3 +31,6 @@ if y==sum:
 else:
     print(f'this is not armstron no.{y}')
 
+
+
+
