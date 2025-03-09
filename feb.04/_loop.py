@@ -29,7 +29,7 @@ while x>0:
 if y==sum:
     print(f'this is armstrong no.{y}')
 else:
-    print(f'this is not armstron no.{y}')
+    print(f'this is not armstron no.{y}') 
 
 
 
